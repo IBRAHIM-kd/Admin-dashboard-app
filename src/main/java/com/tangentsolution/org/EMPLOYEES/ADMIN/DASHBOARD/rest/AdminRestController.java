@@ -63,22 +63,23 @@ public class AdminRestController {
 	@RequestMapping(value = "/dashboardbirthdays", method = RequestMethod.GET)
 	public DashboardBirthdays dashboardBirthdays() {
 		DashboardBirthdays dashboardBirthdays= new DashboardBirthdays();
-		dashboardBirthdays.setCount("+23");
+		dashboardBirthdays.setCount("23");
 		dashboardBirthdays.setMonth("JUNE 2017");
 		dashboardBirthdays.setTotal("67");
-		List<String> birthdayslist = new ArrayList<>();
-		birthdayslist.add("JUNE");
-		birthdayslist.add("JUNE");
-		birthdayslist.add("JUNE");
-		birthdayslist.add("JUNE");
-		DashboardBirthdays.setBirthdaysList(birthdayslist);
+		
+		List<String> birthdays = new ArrayList<>();
+		birthdays.add("JUNE");
+		birthdays.add("JUNE");
+		birthdays.add("JUNE");
+		birthdays.add("JUNE");
+		dashboardBirthdays.setBirthdays(birthdays);
 
-		List<Integer> birthDaysCount = new ArrayList<>();
-		birthDaysCount.add(20);
-		birthDaysCount.add(10);
-		birthDaysCount.add(30);
-		birthDaysCount.add(7);
-		dashboardBirthdays.setBirthdaysCount(birthDaysCount);
+		List<Integer> birthsCount = new ArrayList<>();
+		birthsCount.add(20);
+		birthsCount.add(10);
+		birthsCount.add(30);
+		birthsCount.add(7);
+		dashboardBirthdays.setBirthdaysCount(birthsCount);
 		return dashboardBirthdays;
 	}
 	

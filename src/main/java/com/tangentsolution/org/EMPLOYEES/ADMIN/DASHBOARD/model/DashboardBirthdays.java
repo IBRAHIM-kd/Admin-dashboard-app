@@ -7,7 +7,7 @@ public class DashboardBirthdays {
 	private String total;
 	private String month;
 	private String count;
-	private List<String> birthdayslist;
+	private List<String> birthdays;
 	private List<Integer> birthdaysCount;
 
 	public String getTotal() {
@@ -34,19 +34,21 @@ public class DashboardBirthdays {
 		this.count = count;
 	}
 
-	public List<String> getBirthdaysList() {
-		return birthdayslist;
+	public List<String> getBirthdays() {
+		return birthdays;
 	}
 
-	public void setBirthdaysList(List<String> birthdayslist) {
-		this.birthdayslist = birthdayslist;
+	public void setBirthdays(List<String> birthdays) {
+		this.birthdays = birthdays;
 	}
 
-	public List<Integer> getBirthdaysCount() {
+	public List<Integer> getbirthdaysCount() {
 		return birthdaysCount;
 	}
 
 	public void setBirthdaysCount(List<Integer> birthdaysCount) {
 		this.birthdaysCount = birthdaysCount;
 	}
+
+
 }
