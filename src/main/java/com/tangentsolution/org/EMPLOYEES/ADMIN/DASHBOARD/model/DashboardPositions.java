@@ -2,13 +2,13 @@ package com.tangentsolution.org.EMPLOYEES.ADMIN.DASHBOARD.model;
 
 import java.util.List;
 
-public class DashboardPosition {
+public class DashboardPositions {
 
 	private String total;
 	private String month;
 	private String count;
-	private List<String> cpuList;
-	private List<Integer> cpuPercentage;
+	private List<String> positions;
+	private List<Integer> positionsPercentage;
 
 	public String getTotal() {
 		return total;
@@ -34,19 +34,20 @@ public class DashboardPosition {
 		this.count = count;
 	}
 
-	public List<String> getCpuList() {
-		return cpuList;
+	public List<String> getPositions() {
+		return positions;
 	}
 
-	public void setCpuList(List<String> cpuList) {
-		this.cpuList = cpuList;
+	public void setPositions(List<String> positions) {
+		this.positions = positions;
 	}
 
-	public List<Integer> getCpuPercentage() {
-		return cpuPercentage;
+	public List<Integer> getPositionsPercentage() {
+		return positionsPercentage;
 	}
 
-	public void setCpuPercentage(List<Integer> cpuPercentage) {
-		this.cpuPercentage = cpuPercentage;
+	public void setPositionsPercentage(List<Integer> positionsPercentage) {
+		this.positionsPercentage = positionsPercentage;
 	}
+
 }

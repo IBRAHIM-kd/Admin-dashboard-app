@@ -2,13 +2,13 @@ package com.tangentsolution.org.EMPLOYEES.ADMIN.DASHBOARD.model;
 
 import java.util.List;
 
-public class DashboardInstances {
+public class DashboardBirthdays {
 
 	private String total;
 	private String month;
 	private String count;
-	private List<String> engines;
-	private List<Integer> enginesCount;
+	private List<String> birthdayslist;
+	private List<Integer> birthdaysCount;
 
 	public String getTotal() {
 		return total;
@@ -34,20 +34,19 @@ public class DashboardInstances {
 		this.count = count;
 	}
 
-	public List<String> getEngines() {
-		return engines;
+	public List<String> getBirthdaysList() {
+		return birthdayslist;
 	}
 
-	public void setEngines(List<String> engines) {
-		this.engines = engines;
+	public void setBirthdaysList(List<String> birthdayslist) {
+		this.birthdayslist = birthdayslist;
 	}
 
-	public List<Integer> getEnginesCount() {
-		return enginesCount;
+	public List<Integer> getBirthdaysCount() {
+		return birthdaysCount;
 	}
 
-	public void setEnginesCount(List<Integer> enginesCount) {
-		this.enginesCount = enginesCount;
+	public void setBirthdaysCount(List<Integer> birthdaysCount) {
+		this.birthdaysCount = birthdaysCount;
 	}
-
 }

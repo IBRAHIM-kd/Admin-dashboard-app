@@ -6,7 +6,7 @@ public class DashboardEmployees {
 
 	private String total;
 	private String month;
-	private String employeesCount;
+	private String count;
 	private List<String> employees;
 	private List<Integer> employeesAmount;
 
@@ -26,12 +26,12 @@ public class DashboardEmployees {
 		this.month = month;
 	}
 
-	public String getEmployeesCount() {
-		return employeesCount;
+	public String getCount() {
+		return count;
 	}
 
-	public void setEmployeesCount(String employeesCount) {
-		this.employeesCount = employeesCount;
+	public void setCount(String count) {
+		this.count = count;
 	}
 
 	public List<String> getEmployees() {

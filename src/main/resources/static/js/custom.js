@@ -22,7 +22,7 @@ $(document)
 															+ '</strong><span class="d-block">'
 															+ result.month
 															+ '</span><small class="d-block"><div>'
-															+ result.employeesCount
+															+ result.Count
 															+ 'Employees </div></small>');
 									
 									var BARCHART1 = $('#visitPieChart');
@@ -78,8 +78,8 @@ $(document)
 													+ '</strong><span class="d-block">'
 													+ result.month
 													+ '</span><small class="d-block"><div>'
-													+ result.employeesCount
-													+ 'Employees </div></small>');
+													+ result.Count
+													+ 'Birthdays </div></small>');
 
 									var PIECHARTEXMPLE = $('#visitPieChart');
 									var pieChartExample = new Chart(
@@ -124,8 +124,8 @@ $(document)
 													+ '</strong><span class="d-block">'
 													+ result.month
 													+ '</span><small class="d-block"><div>'
-													+ result.employeesCount
-													+ 'Employees </div></small>');
+													+ result.Count
+													+ 'Positions </div></small>');
 
 									var BARCHART1 = $('#salesBarChart2');
 									var barChartHome = new Chart(BARCHART1, {
@@ -161,7 +161,7 @@ $(document)
 														'#CF53F9', '#CF53F9',
 														'#CF53F9', '#CF53F9' ],
 												borderWidth : 0.2,
-												data : result.positionPercentage
+												data : result.positionsPercentage
 											} ]
 										}
 									});

@@ -1,8 +1,10 @@
 package com.tangentsolution.org.EMPLOYEES.ADMIN.DASHBOARD.model;
 
-public class DashboardReviews {
+public class DashboardEmployeesReviews {
 
 	private String id;
+	private String departmentName;
+	private String position;
 	private String performanceIncrease;
 	private String startingSalary;
 	private String annualIncrease;
@@ -37,6 +39,25 @@ public class DashboardReviews {
 
 	public void setAnnualIncrease(String annualIncrease) {
 		this.annualIncrease = annualIncrease;
+	}
+	
+	public String getDepartmentName() {
+		return departmentName;
+	}
+
+	public void setDepartmentName(String departmentName) {
+		this.departmentName = departmentName;
+		
+		
+	}
+	
+	public String getPosition() {
+		return position;
+	}
+
+	public void setPosition(String position) {
+		this.position = position;
+		
 	}
 
 }
