@@ -10,8 +10,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	// Authentication : User --> Roles
 	protected void configure(AuthenticationManagerBuilder auth)
 			throws Exception {
-		auth.inMemoryAuthentication().passwordEncoder(org.springframework.security.crypto.password.NoOpPasswordEncoder.getInstance()).withUser("employees").password("employee")
-				.roles("USER").and().withUser("employee").password("employee")
+		auth.inMemoryAuthentication().passwordEncoder(org.springframework.security.crypto.password.NoOpPasswordEncoder.getInstance()).withUser("employees").password("employees")
+				.roles("USER").and().withUser("employees1").password("employees1")
 				.roles("USER", "ADMIN");
 	}
 

@@ -15,7 +15,7 @@ Admin Dashboard base on Employee management system projects
 
 1. LOGIN PAGE:
 
-   http://localhost:8080/home
+   http://localhost:8080/index
 	
 	username = emplooyees
 	
