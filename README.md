@@ -10,12 +10,14 @@ Admin Dashboard base on Employee management system projects
 	cd Admin-dashboard-app
 	
 	mvn clean install
+	
+	mvn spring-boot:run
 
 1. LOGIN PAGE:
 
    http://localhost:8080/home
 	
-	username = emplooyee
+	username = emplooyees
 	
-	password = employee
+	password = emplooyees
 
